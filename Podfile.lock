@@ -1,10 +1,10 @@
 PODS:
-  - AffirmSDK (1.0.2)
+  - AffirmSDK (1.0.3)
 
 DEPENDENCIES:
-  - AffirmSDK (~> 1.0.2)
+  - AffirmSDK (~> 1.0.3)
 
 SPEC CHECKSUMS:
-  AffirmSDK: d71ddbc9ad50a57b01ce38970bdf77e99e6d347b
+  AffirmSDK: d8b4ca88bfb5537181e0e33419ad21d8815eabca
 
 COCOAPODS: 0.38.2

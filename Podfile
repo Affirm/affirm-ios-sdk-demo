@@ -1,1 +1,1 @@
-pod 'AffirmSDK', '~> 1.0.2'
+pod 'AffirmSDK', '~> 1.0.3'
