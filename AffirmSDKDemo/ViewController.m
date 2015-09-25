@@ -63,7 +63,7 @@
     AffirmItem *item = [AffirmItem itemWithName:@"Affirm Test Item" SKU:@"test_item" unitPrice:price quantity:1 URL:[NSURL URLWithString:@"http://sandbox.affirm.com/item"] imageURL:[NSURL URLWithString:@"http://sandbox.affirm.com/image.png"]];
     AffirmAddress *address = [AffirmAddress addressWithLine1:@"325 Pacific Ave." line2:@"" city:@"San Francisco" state:@"CA" zipCode:@"94111" countryCode:@"USA"];
     AffirmContact *contact = [AffirmContact contactWithName:@"Test Tester" address:address];
-    AffirmCheckout *checkout = [AffirmCheckout checkoutWithItems:@[item] billing:contact shipping:contact taxAmount:[NSDecimalNumber zero] shippingAmount:[NSDecimalNumber zero]];
+    AffirmCheckout *checkout = [AffirmCheckout checkoutWithItems:@[item] shipping:contact taxAmount:[NSDecimalNumber zero] shippingAmount:[NSDecimalNumber zero]];
     
     // Initialize the view controller, which creates the checkout on Affirm and starts the user checkout flow.
     AffirmCheckoutViewController *vc = [AffirmCheckoutViewController checkoutControllerWithDelegate:self configuration:configuration checkout:checkout];
