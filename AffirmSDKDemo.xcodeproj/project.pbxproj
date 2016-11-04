@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57E0212392FBDAC93EC1F248 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3253B1D353B7322F1AE48057 /* libPods.a */; };
+		77328DE916D7474A96A3F880 /* libPods-AffirmSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD59CF1058AF98E8E15399B /* libPods-AffirmSDKDemo.a */; };
 		AF94263A1B2904A400D45762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9426391B2904A400D45762 /* main.m */; };
 		AF94263D1B2904A400D45762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF94263C1B2904A400D45762 /* AppDelegate.m */; };
 		AF9426401B2904A400D45762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF94263F1B2904A400D45762 /* ViewController.m */; };
@@ -17,9 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0982FA0BA03AE08A22AFF76B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		3253B1D353B7322F1AE48057 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		82A0ADBE56831A78E2E76FC3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		0F98F4FCAE08F64E4453B63B /* Pods-AffirmSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AffirmSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AffirmSDKDemo/Pods-AffirmSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1CD59CF1058AF98E8E15399B /* libPods-AffirmSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AffirmSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9426341B2904A400D45762 /* AffirmSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffirmSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9426381B2904A400D45762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF9426391B2904A400D45762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		AF9426421B2904A400D45762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF9426441B2904A400D45762 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF9426471B2904A400D45762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC7E34C0F7128A57133FA378 /* Pods-AffirmSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AffirmSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AffirmSDKDemo/Pods-AffirmSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,28 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E0212392FBDAC93EC1F248 /* libPods.a in Frameworks */,
+				77328DE916D7474A96A3F880 /* libPods-AffirmSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15CFB14175721CEF60AD3F12 /* Frameworks */ = {
+		6890BAECF6FC7C1C2E84425B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3253B1D353B7322F1AE48057 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		695246CB64311A59BE1E2BCB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0982FA0BA03AE08A22AFF76B /* Pods.debug.xcconfig */,
-				82A0ADBE56831A78E2E76FC3 /* Pods.release.xcconfig */,
+				0F98F4FCAE08F64E4453B63B /* Pods-AffirmSDKDemo.debug.xcconfig */,
+				BC7E34C0F7128A57133FA378 /* Pods-AffirmSDKDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EE9F8383E89277A0FC78213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CD59CF1058AF98E8E15399B /* libPods-AffirmSDKDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AF94262B1B2904A400D45762 = {
@@ -66,8 +66,8 @@
 			children = (
 				AF9426361B2904A400D45762 /* AffirmSDKDemo */,
 				AF9426351B2904A400D45762 /* Products */,
-				695246CB64311A59BE1E2BCB /* Pods */,
-				15CFB14175721CEF60AD3F12 /* Frameworks */,
+				6890BAECF6FC7C1C2E84425B /* Pods */,
+				8EE9F8383E89277A0FC78213 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,12 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF9426571B2904A400D45762 /* Build configuration list for PBXNativeTarget "AffirmSDKDemo" */;
 			buildPhases = (
-				F1A31F0700F4BE059CE1DB89 /* Check Pods Manifest.lock */,
+				688A25AAF7CF29E2286901A9 /* [CP] Check Pods Manifest.lock */,
 				AF9426301B2904A400D45762 /* Sources */,
 				AF9426311B2904A400D45762 /* Frameworks */,
 				AF9426321B2904A400D45762 /* Resources */,
-				2762C446772AC5DB7267E4D6 /* Copy Pods Resources */,
-				703D3305A3A0C95ED33DC00C /* Embed Pods Frameworks */,
+				D4D40E5B5E4FE43AC116F977 /* [CP] Embed Pods Frameworks */,
+				8593666E0CF60ED333A2CA73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,49 +172,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2762C446772AC5DB7267E4D6 /* Copy Pods Resources */ = {
+		688A25AAF7CF29E2286901A9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		703D3305A3A0C95ED33DC00C /* Embed Pods Frameworks */ = {
+		8593666E0CF60ED333A2CA73 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AffirmSDKDemo/Pods-AffirmSDKDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1A31F0700F4BE059CE1DB89 /* Check Pods Manifest.lock */ = {
+		D4D40E5B5E4FE43AC116F977 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AffirmSDKDemo/Pods-AffirmSDKDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -335,7 +335,7 @@
 		};
 		AF9426581B2904A400D45762 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0982FA0BA03AE08A22AFF76B /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 0F98F4FCAE08F64E4453B63B /* Pods-AffirmSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -352,7 +352,7 @@
 		};
 		AF9426591B2904A400D45762 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82A0ADBE56831A78E2E76FC3 /* Pods.release.xcconfig */;
+			baseConfigurationReference = BC7E34C0F7128A57133FA378 /* Pods-AffirmSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
