@@ -1,3 +1,5 @@
+use_frameworks!
+
 target 'AffirmSDKDemo' do
-  pod 'AffirmSDK', '~> 2.1.1'
+    pod 'AffirmSDK', '2.2.0'
 end

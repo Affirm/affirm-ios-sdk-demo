@@ -9,6 +9,6 @@
 #import <AffirmSDK/AffirmSDK.h>
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <AffirmCheckoutDelegate>
+@interface ViewController : UIViewController <AffirmCheckoutDelegate, UITextFieldDelegate>
 
 @end

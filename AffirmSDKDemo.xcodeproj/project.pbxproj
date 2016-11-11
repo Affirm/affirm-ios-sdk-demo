@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77328DE916D7474A96A3F880 /* libPods-AffirmSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD59CF1058AF98E8E15399B /* libPods-AffirmSDKDemo.a */; };
+		5944A3D02DD1429EAADE9AB7 /* Pods_AffirmSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A8E34B1FF0FD428A630856 /* Pods_AffirmSDKDemo.framework */; };
 		AF94263A1B2904A400D45762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9426391B2904A400D45762 /* main.m */; };
 		AF94263D1B2904A400D45762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF94263C1B2904A400D45762 /* AppDelegate.m */; };
 		AF9426401B2904A400D45762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF94263F1B2904A400D45762 /* ViewController.m */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		0F98F4FCAE08F64E4453B63B /* Pods-AffirmSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AffirmSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AffirmSDKDemo/Pods-AffirmSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		1CD59CF1058AF98E8E15399B /* libPods-AffirmSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AffirmSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A8E34B1FF0FD428A630856 /* Pods_AffirmSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AffirmSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9426341B2904A400D45762 /* AffirmSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffirmSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9426381B2904A400D45762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF9426391B2904A400D45762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77328DE916D7474A96A3F880 /* libPods-AffirmSDKDemo.a in Frameworks */,
+				5944A3D02DD1429EAADE9AB7 /* Pods_AffirmSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		8EE9F8383E89277A0FC78213 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1CD59CF1058AF98E8E15399B /* libPods-AffirmSDKDemo.a */,
+				96A8E34B1FF0FD428A630856 /* Pods_AffirmSDKDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
