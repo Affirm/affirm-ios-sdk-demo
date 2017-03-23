@@ -59,14 +59,14 @@
 }
 
 - (IBAction)presentSiteModal:(id)sender {
-    AffirmConfiguration *configuration = [AffirmConfiguration configurationWithAffirmDomain:@"sandbox.affirm.com" publicAPIKey:@"Y8CQXFF044903JC0" ];
+    AffirmConfiguration *configuration = [AffirmConfiguration configurationWithAffirmDomain:@"cdn1-sandbox.affirm.com" publicAPIKey:@"Y8CQXFF044903JC0" ];
 
     AffirmSiteModalViewController *vc = [AffirmSiteModalViewController siteModalControllerWithModalId:@"5LNMQ33SEUYHLNUC" configuration:configuration];
     [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (IBAction)presentProductModal:(id)sender {
-    AffirmConfiguration *configuration = [AffirmConfiguration configurationWithAffirmDomain:@"sandbox.affirm.com" publicAPIKey:@"Y8CQXFF044903JC0" ];
+    AffirmConfiguration *configuration = [AffirmConfiguration configurationWithAffirmDomain:@"cdn1-sandbox.affirm.com" publicAPIKey:@"Y8CQXFF044903JC0" ];
 
     NSDecimalNumber *price = [NSDecimalNumber decimalNumberWithString:self.textField.text];
     AffirmProductModalViewController *vc = [AffirmProductModalViewController productModalControllerWithModalId:@"0Q97G0Z4Y4TLGHGB" amount:price configuration:configuration];
